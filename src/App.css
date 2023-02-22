@@ -1,0 +1,33 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(45deg,#0072ff,#00d2e8 17%,#04fd8f 34%,#70fd6c 51%,#dae11e 68%,#ff9346 85%,#ff62c6);
+}
+
+p{
+  font-size: smaller;
+  margin: 10px;
+}
+
+.app{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .app{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+

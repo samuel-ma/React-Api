@@ -1,0 +1,32 @@
+
+
+.users{
+    border: 1px solid #646cff9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.users:hover{
+    color: white;
+    background-color: #646cff;
+    border: 1px solid #646cff;
+}
+
+.h3{
+    color: #646cff;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 800px) {
+    .users{
+        margin: 10px;
+        padding: 20px;
+    }
+}
