@@ -23,6 +23,9 @@
     text-decoration: underline;
 }
 
+.h3:hover{
+    color: white;
+}
 
 @media screen and (max-width: 800px) {
     .users{
